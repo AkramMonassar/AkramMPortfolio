@@ -1455,29 +1455,34 @@
                             <div class="form-group">
                                 <label><span class="lang-en">Your Full Name</span><span class="lang-ar">الاسم
                                         بالكامل</span></label>
-                                <input type="text" class="form-control" name="name" required>
-                                <span class="error-msg">...</span>
+                                <input type="text" class="form-control" placeholder="Akram Ahmed" name="name" required>
+                                <span class="error-msg" data-en="Please enter your name"
+                                    data-ar="يرجى إدخال الاسم">Please enter your name</span>
                             </div>
 
                             <div class="form-group">
                                 <label><span class="lang-en">Your Email Address</span><span class="lang-ar">البريد
                                         الإلكتروني</span></label>
-                                <input type="email" class="form-control" name="email" required>
-                                <span class="error-msg">...</span>
+                                <input type="email" class="form-control"  placeholder="example@domain.com" name="email" required>
+                                <span class="error-msg" data-en="Please enter a valid email"
+                                    data-ar="يرجى إدخال بريد إلكتروني صالح">Please enter a valid email</span>
                             </div>
 
                             <div class="form-group">
                                 <label><span class="lang-en">Message Subject</span><span class="lang-ar">موضوع
                                         الرسالة</span></label>
-                                <input type="text" class="form-control" name="subject" required>
-                                <span class="error-msg">...</span>
+                                <input type="text" class="form-control" placeholder="Consulting Inquiry" name="subject" required>
+                                <span class="error-msg" data-en="Please enter the subject"
+                                    data-ar="يرجى إدخال الموضوع">Please enter the subject</span>
                             </div>
 
                             <div class="form-group">
                                 <label><span class="lang-en">Message Details</span><span class="lang-ar">تفاصيل
                                         الرسالة</span></label>
-                                <textarea class="form-control" name="message" required></textarea>
-                                <span class="error-msg">...</span>
+                                <textarea class="form-control" placeholder="I would like to discuss..." name="message" required></textarea>
+                                <span class="error-msg" data-en="Please write your message"
+                                    data-ar="يرجى كتابة الرسالة">Please write your message</span>
+
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
